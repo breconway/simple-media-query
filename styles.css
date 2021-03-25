@@ -5,6 +5,14 @@ body{
   background: lightpink;
 }
 
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  max-width: 500px;
+}
+
 nav{
   background: grey;
   /*  height: 60px; */
@@ -26,6 +34,22 @@ nav a:hover{
   text-decoration: underline;
 }
 
+/* styles for hero or feature */
+.hero{
+  background-image: url("hair-2537564_1920.jpg");
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  /* background stuff abive */
+  /* moving text below */
+  position: relative;
+}
+.hero h2{
+  position:absolute;
+  bottom:10%;
+  right: 5%
+}
 main{
   margin: 20px auto;
       /*top right bottom left */
@@ -49,7 +73,9 @@ img{
 }
 /* medium screen styles below */
 @media screen and (min-width: 700px) {
-
+        .logo{
+          /* width: 350px; */
+        }
         img{
             display:inline;
             width:30%;
