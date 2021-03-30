@@ -10,7 +10,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  max-width: 500px;
+  max-width: 300px;
 }
 
 nav{
@@ -37,7 +37,7 @@ nav a:hover{
 /* styles for hero or feature */
 .hero{
   background-image: url("hair-2537564_1920.jpg");
-  height: 600px;
+  height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
@@ -48,14 +48,14 @@ nav a:hover{
 .hero h2{
   position:absolute;
   bottom:10%;
-  right: 5%
+  right:5%;
 }
 main{
   margin: 20px auto;
       /*top right bottom left */
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: raw; */
+  /* flex-direction: row; */
 }
 .flexItem{
   flex-basis: 300px;
